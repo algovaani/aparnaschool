@@ -1,0 +1,448 @@
+[28-Jun-2025 13:42:45 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativesResponse.php on line 20
+[28-Jun-2025 14:10:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidCreativeRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidCreativeRow.php on line 20
+[28-Jun-2025 14:36:51 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FrequencyCap.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FrequencyCap.php on line 20
+[28-Jun-2025 18:58:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/VideoTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/VideoTargeting.php on line 20
+[29-Jun-2025 05:30:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DeliveryControl.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DeliveryControl.php on line 20
+[29-Jun-2025 09:46:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DeliveryControl.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DeliveryControl.php on line 20
+[29-Jun-2025 09:47:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/VideoContent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/VideoContent.php on line 20
+[29-Jun-2025 09:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CriteriaTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CriteriaTargeting.php on line 20
+[29-Jun-2025 09:58:17 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AddDealAssociationRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AddDealAssociationRequest.php on line 20
+[29-Jun-2025 09:59:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TargetingValue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TargetingValue.php on line 20
+[29-Jun-2025 10:00:06 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/LocationContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/LocationContext.php on line 20
+[29-Jun-2025 10:02:37 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/OperatingSystemTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/OperatingSystemTargeting.php on line 20
+[29-Jun-2025 10:03:07 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Date.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Date.php on line 20
+[29-Jun-2025 10:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AcceptProposalRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AcceptProposalRequest.php on line 20
+[29-Jun-2025 10:03:44 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidDetailRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidDetailRow.php on line 20
+[29-Jun-2025 10:04:47 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AuctionContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AuctionContext.php on line 20
+[29-Jun-2025 10:05:22 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeRestrictions.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeRestrictions.php on line 20
+[29-Jun-2025 10:11:39 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RowDimensions.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RowDimensions.php on line 20
+[29-Jun-2025 10:12:48 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Deal.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Deal.php on line 20
+[29-Jun-2025 10:13:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Adexchangebuyer2Empty.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Adexchangebuyer2Empty.php on line 20
+[29-Jun-2025 10:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientUserInvitationsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientUserInvitationsResponse.php on line 20
+[29-Jun-2025 10:16:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListLosingBidsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListLosingBidsResponse.php on line 20
+[29-Jun-2025 10:16:45 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ServingRestriction.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ServingRestriction.php on line 20
+[29-Jun-2025 10:19:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonBillableWinningBidStatusRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonBillableWinningBidStatusRow.php on line 20
+[29-Jun-2025 10:19:31 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AbsoluteDateRange.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AbsoluteDateRange.php on line 20
+[29-Jun-2025 10:19:54 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AdSize.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AdSize.php on line 20
+[29-Jun-2025 10:20:35 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ServingContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ServingContext.php on line 20
+[29-Jun-2025 10:22:23 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PrivateData.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PrivateData.php on line 20
+[29-Jun-2025 10:23:26 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ImpressionMetricsRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ImpressionMetricsRow.php on line 20
+[29-Jun-2025 10:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidResponsesWithoutBidsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidResponsesWithoutBidsResponse.php on line 20
+[29-Jun-2025 10:27:08 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonGuaranteedAuctionTerms.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonGuaranteedAuctionTerms.php on line 20
+[29-Jun-2025 10:28:34 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilteredBidsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilteredBidsResponse.php on line 20
+[29-Jun-2025 10:31:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilteredBidRequestsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilteredBidRequestsResponse.php on line 20
+[29-Jun-2025 10:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TimeInterval.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TimeInterval.php on line 20
+[29-Jun-2025 10:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Image.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Image.php on line 20
+[29-Jun-2025 10:33:48 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/BidResponseWithoutBidsStatusRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/BidResponseWithoutBidsStatusRow.php on line 20
+[29-Jun-2025 10:35:11 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CancelNegotiationRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CancelNegotiationRequest.php on line 20
+[29-Jun-2025 10:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealPauseStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealPauseStatus.php on line 20
+[29-Jun-2025 10:37:39 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Seller.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Seller.php on line 20
+[29-Jun-2025 10:37:50 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Correction.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Correction.php on line 20
+[29-Jun-2025 10:41:09 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AdTechnologyProviders.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AdTechnologyProviders.php on line 20
+[29-Jun-2025 10:42:16 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListProductsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListProductsResponse.php on line 20
+[29-Jun-2025 10:42:19 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeDealAssociation.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeDealAssociation.php on line 20
+[29-Jun-2025 10:42:44 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PublisherProfileMobileApplication.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PublisherProfileMobileApplication.php on line 20
+[29-Jun-2025 10:42:55 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ClientUserInvitation.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ClientUserInvitation.php on line 20
+[29-Jun-2025 10:42:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NativeContent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NativeContent.php on line 20
+[29-Jun-2025 10:43:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PricePerBuyer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PricePerBuyer.php on line 20
+[29-Jun-2025 10:43:17 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MarketplaceTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MarketplaceTargeting.php on line 20
+[29-Jun-2025 10:45:31 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ContactInformation.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ContactInformation.php on line 20
+[29-Jun-2025 10:49:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/HtmlContent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/HtmlContent.php on line 20
+[29-Jun-2025 10:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MobileApplicationTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MobileApplicationTargeting.php on line 20
+[29-Jun-2025 10:51:42 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativeStatusBreakdownByCreativeResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativeStatusBreakdownByCreativeResponse.php on line 20
+[29-Jun-2025 10:51:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonGuaranteedFixedPriceTerms.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/NonGuaranteedFixedPriceTerms.php on line 20
+[29-Jun-2025 10:56:50 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListProposalsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListProposalsResponse.php on line 20
+[29-Jun-2025 10:59:07 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Product.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Product.php on line 20
+[29-Jun-2025 10:59:14 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilterSetsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListFilterSetsResponse.php on line 20
+[29-Jun-2025 10:59:31 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientUsersResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientUsersResponse.php on line 20
+[29-Jun-2025 11:00:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/UrlTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/UrlTargeting.php on line 20
+[29-Jun-2025 11:01:16 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RealtimeTimeRange.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RealtimeTimeRange.php on line 20
+[29-Jun-2025 11:01:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MetricValue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/MetricValue.php on line 20
+[29-Jun-2025 11:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListPublisherProfilesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListPublisherProfilesResponse.php on line 20
+[29-Jun-2025 11:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativeStatusBreakdownByDetailResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativeStatusBreakdownByDetailResponse.php on line 20
+[29-Jun-2025 11:03:44 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/BidMetricsRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/BidMetricsRow.php on line 20
+[29-Jun-2025 11:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListNonBillableWinningBidsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListNonBillableWinningBidsResponse.php on line 20
+[29-Jun-2025 11:05:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PauseProposalDealsRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PauseProposalDealsRequest.php on line 20
+[29-Jun-2025 11:06:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TargetingCriteria.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TargetingCriteria.php on line 20
+[29-Jun-2025 11:06:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PlacementTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PlacementTargeting.php on line 20
+[29-Jun-2025 11:08:30 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RelativeDateRange.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RelativeDateRange.php on line 20
+[29-Jun-2025 11:09:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidResponseErrorsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidResponseErrorsResponse.php on line 20
+[29-Jun-2025 11:09:34 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Creative.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Creative.php on line 20
+[29-Jun-2025 11:10:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeStatusRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeStatusRow.php on line 20
+[29-Jun-2025 11:12:48 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DayPart.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DayPart.php on line 20
+[29-Jun-2025 11:13:13 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DayPartTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DayPartTargeting.php on line 20
+[29-Jun-2025 11:14:06 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/GuaranteedFixedPriceTerms.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/GuaranteedFixedPriceTerms.php on line 20
+[29-Jun-2025 11:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RemoveDealAssociationRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/RemoveDealAssociationRequest.php on line 20
+[29-Jun-2025 11:15:49 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealServingMetadata.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealServingMetadata.php on line 20
+[29-Jun-2025 16:21:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Disapproval.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Disapproval.php on line 20
+[29-Jun-2025 16:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealTerms.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/DealTerms.php on line 20
+[29-Jun-2025 16:25:21 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PublisherProfile.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PublisherProfile.php on line 20
+[29-Jun-2025 16:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Money.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Money.php on line 20
+[29-Jun-2025 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilterSet.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilterSet.php on line 20
+[29-Jun-2025 16:27:57 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListClientsResponse.php on line 20
+[29-Jun-2025 16:32:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/InventorySizeTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/InventorySizeTargeting.php on line 20
+[29-Jun-2025 16:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/SecurityContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/SecurityContext.php on line 20
+[29-Jun-2025 16:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListImpressionMetricsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListImpressionMetricsResponse.php on line 20
+[29-Jun-2025 16:36:03 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Buyer.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Buyer.php on line 20
+[29-Jun-2025 16:36:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/WatchCreativeRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/WatchCreativeRequest.php on line 20
+[29-Jun-2025 16:36:46 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PlatformContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PlatformContext.php on line 20
+[29-Jun-2025 16:36:49 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Proposal.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Proposal.php on line 20
+[29-Jun-2025 16:38:11 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CompleteSetupRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CompleteSetupRequest.php on line 20
+[29-Jun-2025 16:40:41 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Size.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Size.php on line 20
+[29-Jun-2025 16:41:11 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FirstPartyMobileApplicationTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FirstPartyMobileApplicationTargeting.php on line 20
+[29-Jun-2025 16:43:56 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListDealAssociationsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListDealAssociationsResponse.php on line 20
+[29-Jun-2025 16:44:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeSpecification.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeSpecification.php on line 20
+[29-Jun-2025 16:44:15 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Price.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Price.php on line 20
+[29-Jun-2025 16:44:48 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PauseProposalRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/PauseProposalRequest.php on line 20
+[29-Jun-2025 16:46:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalRequest.php on line 20
+[29-Jun-2025 16:50:03 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TimeOfDay.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TimeOfDay.php on line 20
+[29-Jun-2025 16:51:03 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AddNoteRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AddNoteRequest.php on line 20
+[29-Jun-2025 16:51:07 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CalloutStatusRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CalloutStatusRow.php on line 20
+[29-Jun-2025 16:51:46 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TechnologyTargeting.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/TechnologyTargeting.php on line 20
+[29-Jun-2025 16:53:15 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/StopWatchingCreativeRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/StopWatchingCreativeRequest.php on line 20
+[29-Jun-2025 16:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Note.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Note.php on line 20
+[29-Jun-2025 16:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidMetricsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListBidMetricsResponse.php on line 20
+[29-Jun-2025 16:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AppContext.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/AppContext.php on line 20
+[29-Jun-2025 16:54:09 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalDealsRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalDealsRequest.php on line 20
+[29-Jun-2025 16:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Client.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/Client.php on line 20
+[29-Jun-2025 21:39:49 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ListCreativesResponse.php on line 20
+[29-Jun-2025 21:44:31 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidCreativeRow.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FilteredBidCreativeRow.php on line 20
+[29-Jun-2025 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FrequencyCap.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/FrequencyCap.php on line 20
+[02-Jul-2025 04:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeSize.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/CreativeSize.php on line 20
+[02-Jul-2025 04:10:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalDealsRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExchangeBuyerII/ResumeProposalDealsRequest.php on line 20

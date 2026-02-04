@@ -1,0 +1,116 @@
+[25-Jun-2025 09:31:27 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php on line 20
+[25-Jun-2025 10:01:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdCode.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdCode.php on line 20
+[25-Jun-2025 10:07:12 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php on line 20
+[25-Jun-2025 10:09:14 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php on line 20
+[25-Jun-2025 10:19:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AssociationSession.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AssociationSession.php on line 20
+[25-Jun-2025 10:19:55 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleFont.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleFont.php on line 20
+[25-Jun-2025 10:39:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettings.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettings.php on line 20
+[28-Jun-2025 09:57:11 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php on line 20
+[29-Jun-2025 00:20:35 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php on line 20
+[29-Jun-2025 05:16:43 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php on line 20
+[29-Jun-2025 09:41:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/ReportHeaders.php on line 20
+[29-Jun-2025 10:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AssociationSession.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AssociationSession.php on line 20
+[29-Jun-2025 10:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleFont.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleFont.php on line 20
+[29-Jun-2025 10:37:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettings.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettings.php on line 20
+[29-Jun-2025 10:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Account.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Account.php on line 20
+[29-Jun-2025 10:50:45 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannels.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannels.php on line 20
+[29-Jun-2025 10:52:39 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Accounts.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Accounts.php on line 20
+[29-Jun-2025 10:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitMobileContentAdsSettings.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitMobileContentAdsSettings.php on line 20
+[29-Jun-2025 11:00:47 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyle.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyle.php on line 20
+[29-Jun-2025 11:02:13 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettingsBackupOption.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnitContentAdsSettingsBackupOption.php on line 20
+[29-Jun-2025 11:04:09 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleColors.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdStyleColors.php on line 20
+[29-Jun-2025 11:04:27 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdClients.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdClients.php on line 20
+[29-Jun-2025 11:14:16 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnits.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnits.php on line 20
+[29-Jun-2025 16:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/UrlChannel.php on line 20
+[29-Jun-2025 16:23:15 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/CustomChannel.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/CustomChannel.php on line 20
+[29-Jun-2025 16:49:09 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnit.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdUnit.php on line 20
+[29-Jun-2025 16:50:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/CustomChannels.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/CustomChannels.php on line 20
+[29-Jun-2025 16:53:37 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdClient.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/AdClient.php on line 20
+[30-Jun-2025 09:22:13 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdSenseHost/Report.php on line 20

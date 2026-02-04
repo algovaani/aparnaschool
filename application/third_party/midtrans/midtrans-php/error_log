@@ -1,0 +1,15 @@
+[25-May-2025 14:52:12 UTC] PHP Warning:  require_once(/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php): Failed to open stream: No such file or directory in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7
+[25-May-2025 14:52:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7
+[02-Jun-2025 09:47:11 UTC] PHP Warning:  require_once(/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php): Failed to open stream: No such file or directory in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7
+[02-Jun-2025 09:47:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7
+[03-Jun-2025 18:47:13 UTC] PHP Warning:  require_once(/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php): Failed to open stream: No such file or directory in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7
+[03-Jun-2025 18:47:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/test_bootstrap.php on line 7

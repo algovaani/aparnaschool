@@ -1,0 +1,8 @@
+[17-Jul-2025 20:09:54 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://docs.midtrans.com/reference/backend-integration for more details"]} | Request url: https://app.sandbox.midtrans.com/snap/v1/transactions in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:103
+Stack trace:
+#0 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(30): Midtrans\SnapApiRequestor::remoteCall()
+#1 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Snap.php(77): Midtrans\SnapApiRequestor::post()
+#2 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Snap.php(33): Midtrans\Snap::createTransaction()
+#3 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/examples/snap/checkout-process.php(86): Midtrans\Snap::getSnapToken()
+#4 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 103

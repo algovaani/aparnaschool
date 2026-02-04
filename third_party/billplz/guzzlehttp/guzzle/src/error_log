@@ -1,0 +1,10 @@
+[23-Jun-2025 10:20:25 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Pool.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Pool.php on line 21
+[23-Jun-2025 10:20:40 UTC] PHP Fatal error:  Trait "GuzzleHttp\ClientTrait" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Client.php on line 13
+[29-Jun-2025 16:50:26 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Pool.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Pool.php on line 21
+[29-Jun-2025 16:54:02 UTC] PHP Fatal error:  Trait "GuzzleHttp\ClientTrait" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/guzzle/src/Client.php on line 13

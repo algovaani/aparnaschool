@@ -1,0 +1,32 @@
+[18-Jun-2025 08:18:51 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php on line 20
+[18-Jun-2025 13:01:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/PlatformSummary.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/PlatformSummary.php on line 20
+[18-Jun-2025 13:10:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php on line 20
+[20-Jun-2025 03:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php on line 20
+[20-Jun-2025 03:28:47 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php on line 20
+[21-Jun-2025 06:09:34 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/SiteSummaryResponse.php on line 20
+[21-Jun-2025 06:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/PlatformSummary.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/PlatformSummary.php on line 20
+[21-Jun-2025 06:16:15 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AdExperienceReport/ViolatingSitesResponse.php on line 20

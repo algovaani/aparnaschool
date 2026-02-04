@@ -1,0 +1,12 @@
+[18-Jun-2025 07:57:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php on line 28
+[19-Jun-2025 23:33:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php on line 28
+[21-Jun-2025 02:24:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Log\LoggerInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/monolog/monolog/src/Monolog/Logger.php on line 28

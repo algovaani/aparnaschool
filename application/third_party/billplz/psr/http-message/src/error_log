@@ -1,0 +1,40 @@
+[18-Jun-2025 04:15:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/RequestInterface.php on line 24
+[18-Jun-2025 04:37:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php on line 20
+[18-Jun-2025 13:14:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php on line 43
+[19-Jun-2025 23:25:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php on line 20
+[20-Jun-2025 04:07:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php on line 43
+[21-Jun-2025 02:16:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php on line 20
+[21-Jun-2025 06:16:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php on line 43
+[08-Jul-2025 18:14:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/RequestInterface.php on line 24
+[08-Jul-2025 18:33:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ResponseInterface.php on line 20
+[08-Jul-2025 18:52:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/http-message/src/ServerRequestInterface.php on line 43

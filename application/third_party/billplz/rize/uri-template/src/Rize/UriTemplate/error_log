@@ -1,0 +1,16 @@
+[01-Jun-2025 22:42:20 UTC] PHP Fatal error:  Uncaught Error: Class "Rize\UriTemplate" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php on line 10
+[03-Jun-2025 07:34:15 UTC] PHP Fatal error:  Uncaught Error: Class "Rize\UriTemplate" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php on line 10
+[04-Jun-2025 17:05:39 UTC] PHP Fatal error:  Uncaught Error: Class "Rize\UriTemplate" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php on line 10
+[03-Jul-2025 20:20:16 UTC] PHP Fatal error:  Uncaught Error: Class "Rize\UriTemplate" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/src/Rize/UriTemplate/UriTemplate.php on line 10

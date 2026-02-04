@@ -1,0 +1,96 @@
+[21-Jun-2025 20:41:35 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php on line 7
+[21-Jun-2025 20:56:03 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\TaskQueueInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php on line 13
+[21-Jun-2025 20:59:49 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php on line 10
+[21-Jun-2025 21:01:36 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php on line 7
+[21-Jun-2025 21:03:56 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php on line 10
+[21-Jun-2025 21:05:31 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php on line 9
+[21-Jun-2025 21:06:27 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php on line 8
+[21-Jun-2025 21:07:24 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php on line 43
+[23-Jun-2025 06:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php on line 7
+[23-Jun-2025 06:14:08 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\TaskQueueInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php on line 13
+[23-Jun-2025 06:15:03 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php on line 10
+[23-Jun-2025 06:16:04 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php on line 7
+[23-Jun-2025 06:22:20 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php on line 10
+[23-Jun-2025 06:27:54 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php on line 9
+[23-Jun-2025 06:47:09 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php on line 8
+[23-Jun-2025 06:47:14 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php on line 43
+[25-Jun-2025 10:15:13 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/CancellationException.php on line 7
+[25-Jun-2025 10:20:11 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\TaskQueueInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/TaskQueue.php on line 13
+[25-Jun-2025 10:20:25 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/RejectedPromise.php on line 10
+[25-Jun-2025 10:39:51 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Promise\RejectionException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/AggregateException.php on line 7
+[29-Jun-2025 11:01:20 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/FulfilledPromise.php on line 10
+[29-Jun-2025 11:06:49 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Promise.php on line 9
+[29-Jun-2025 11:06:53 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/EachPromise.php on line 8
+[29-Jun-2025 11:06:57 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromiseInterface" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/guzzlehttp/promises/src/Coroutine.php on line 43

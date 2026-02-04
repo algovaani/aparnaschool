@@ -1,0 +1,16 @@
+[20-May-2025 22:58:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit_Framework_TestCase" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php on line 8
+[22-May-2025 02:36:44 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit_Framework_TestCase" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php on line 8
+[23-May-2025 20:40:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit_Framework_TestCase" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php on line 8
+[08-Jul-2025 09:29:33 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit_Framework_TestCase" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/rize/uri-template/test/Rize/Uri/Node/ParserTest.php on line 8

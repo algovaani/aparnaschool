@@ -1,0 +1,280 @@
+[26-Jun-2025 04:41:20 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php on line 20
+[26-Jun-2025 04:47:43 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php on line 20
+[28-Jun-2025 10:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php on line 20
+[28-Jun-2025 10:24:26 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php on line 20
+[28-Jun-2025 19:15:49 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ResourceInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ResourceInfo.php on line 20
+[29-Jun-2025 00:46:33 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Alert.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Alert.php on line 20
+[29-Jun-2025 04:09:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/OutOfDomainForwarding.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/OutOfDomainForwarding.php on line 20
+[29-Jun-2025 08:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/OutOfDomainForwarding.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/OutOfDomainForwarding.php on line 20
+[29-Jun-2025 09:48:17 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuspiciousActivity.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuspiciousActivity.php on line 20
+[29-Jun-2025 09:51:15 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Attachment.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Attachment.php on line 20
+[29-Jun-2025 09:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppMakerSqlSetupNotification.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppMakerSqlSetupNotification.php on line 20
+[29-Jun-2025 09:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Status.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Status.php on line 20
+[29-Jun-2025 10:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Csv.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Csv.php on line 20
+[29-Jun-2025 10:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MergeInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MergeInfo.php on line 20
+[29-Jun-2025 10:16:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MailPhishing.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MailPhishing.php on line 20
+[29-Jun-2025 10:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ActivityRule.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ActivityRule.php on line 20
+[29-Jun-2025 10:17:50 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AbuseDetected.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AbuseDetected.php on line 20
+[29-Jun-2025 10:26:58 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Entity.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Entity.php on line 20
+[29-Jun-2025 10:28:26 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PredefinedDetectorInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PredefinedDetectorInfo.php on line 20
+[29-Jun-2025 10:35:18 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SensitiveAdminAction.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SensitiveAdminAction.php on line 20
+[29-Jun-2025 10:35:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/GmailMessageInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/GmailMessageInfo.php on line 20
+[29-Jun-2025 10:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DeviceCompromisedSecurityDetail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DeviceCompromisedSecurityDetail.php on line 20
+[29-Jun-2025 10:37:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ListAlertsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ListAlertsResponse.php on line 20
+[29-Jun-2025 10:37:57 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertMetadata.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertMetadata.php on line 20
+[29-Jun-2025 10:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileDeletedEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileDeletedEvent.php on line 20
+[29-Jun-2025 10:42:41 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileCreatedEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileCreatedEvent.php on line 20
+[29-Jun-2025 10:44:22 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchUndeleteAlertsRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchUndeleteAlertsRequest.php on line 20
+[29-Jun-2025 10:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DomainId.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DomainId.php on line 20
+[29-Jun-2025 10:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppSettingsChanged.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppSettingsChanged.php on line 20
+[29-Jun-2025 10:48:51 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchDeleteAlertsRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchDeleteAlertsRequest.php on line 20
+[29-Jun-2025 10:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppsOutage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AppsOutage.php on line 20
+[29-Jun-2025 10:51:45 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuperAdminPasswordResetEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuperAdminPasswordResetEvent.php on line 20
+[29-Jun-2025 10:52:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MatchInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MatchInfo.php on line 20
+[29-Jun-2025 10:52:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UserChanges.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UserChanges.php on line 20
+[29-Jun-2025 10:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PhishingSpike.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PhishingSpike.php on line 20
+[29-Jun-2025 10:52:59 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RuleViolationInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RuleViolationInfo.php on line 20
+[29-Jun-2025 10:53:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BadWhitelist.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BadWhitelist.php on line 20
+[29-Jun-2025 10:53:38 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RequestInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RequestInfo.php on line 20
+[29-Jun-2025 10:56:47 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/CloudPubsubTopic.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/CloudPubsubTopic.php on line 20
+[29-Jun-2025 10:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertFeedback.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertFeedback.php on line 20
+[29-Jun-2025 10:59:46 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ListAlertFeedbackResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ListAlertFeedbackResponse.php on line 20
+[29-Jun-2025 11:02:21 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/StateSponsoredAttack.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/StateSponsoredAttack.php on line 20
+[29-Jun-2025 11:05:14 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountSuspensionDetails.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountSuspensionDetails.php on line 20
+[29-Jun-2025 11:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/GoogleOperations.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/GoogleOperations.php on line 20
+[29-Jun-2025 11:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MandatoryServiceAnnouncement.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MandatoryServiceAnnouncement.php on line 20
+[29-Jun-2025 11:06:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PrimaryAdminChangedEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/PrimaryAdminChangedEvent.php on line 20
+[29-Jun-2025 11:08:47 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/LoginDetails.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/LoginDetails.php on line 20
+[29-Jun-2025 11:09:38 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountWarning.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountWarning.php on line 20
+[29-Jun-2025 11:10:22 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DeviceCompromised.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DeviceCompromised.php on line 20
+[29-Jun-2025 11:10:42 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchDeleteAlertsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchDeleteAlertsResponse.php on line 20
+[29-Jun-2025 11:13:20 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuspiciousActivitySecurityDetail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SuspiciousActivitySecurityDetail.php on line 20
+[29-Jun-2025 16:10:53 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ReportingRule.php on line 20
+[29-Jun-2025 16:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/EntityList.php on line 20
+[29-Jun-2025 16:16:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UndeleteAlertRequest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UndeleteAlertRequest.php on line 20
+[29-Jun-2025 16:21:55 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ApnsCertificateExpirationInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ApnsCertificateExpirationInfo.php on line 20
+[29-Jun-2025 16:26:20 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DlpRuleViolation.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DlpRuleViolation.php on line 20
+[29-Jun-2025 16:26:41 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountSuspensionWarning.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AccountSuspensionWarning.php on line 20
+[29-Jun-2025 16:27:53 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Settings.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Settings.php on line 20
+[29-Jun-2025 16:28:01 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileUpdatedEvent.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/SSOProfileUpdatedEvent.php on line 20
+[29-Jun-2025 16:32:54 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/User.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/User.php on line 20
+[29-Jun-2025 16:36:10 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MaliciousEntity.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/MaliciousEntity.php on line 20
+[29-Jun-2025 16:36:28 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Collection" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchUndeleteAlertsResponse.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/BatchUndeleteAlertsResponse.php on line 20
+[29-Jun-2025 16:37:13 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertcenterEmpty.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/AlertcenterEmpty.php on line 20
+[29-Jun-2025 16:38:52 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DomainWideTakeoutInitiated.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/DomainWideTakeoutInitiated.php on line 20
+[29-Jun-2025 16:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RuleInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/RuleInfo.php on line 20
+[30-Jun-2025 02:43:02 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ResourceInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ResourceInfo.php on line 20
+[30-Jun-2025 09:28:24 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Alert.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Alert.php on line 20
+[01-Jul-2025 15:45:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ActionInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/ActionInfo.php on line 20
+[02-Jul-2025 03:33:37 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UserDefinedDetectorInfo.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/UserDefinedDetectorInfo.php on line 20
+[02-Jul-2025 03:52:40 UTC] PHP Fatal error:  Uncaught Error: Class "Google\Model" not found in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Notification.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/omnipay/vendor/google/apiclient-services/src/AlertCenter/Notification.php on line 20

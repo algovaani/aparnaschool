@@ -1,0 +1,52 @@
+[21-May-2025 17:26:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php on line 25
+[21-May-2025 17:26:01 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 97
+[21-May-2025 17:26:01 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 98
+[21-May-2025 17:26:01 UTC] PHP Warning:  Attempt to read property "status_message" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 99
+[21-May-2025 17:26:01 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[21-May-2025 17:26:01 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error ():  in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php:106
+Stack trace:
+#0 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php(19): Midtrans\ApiRequestor::remoteCall()
+#1 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Transaction.php(18): Midtrans\ApiRequestor::get()
+#2 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php(25): Midtrans\Transaction::status()
+#3 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/examples/notification-handler.php(8): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[02-Jun-2025 09:50:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php on line 25
+[02-Jun-2025 09:50:58 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 97
+[02-Jun-2025 09:50:58 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 98
+[02-Jun-2025 09:50:58 UTC] PHP Warning:  Attempt to read property "status_message" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 99
+[02-Jun-2025 09:50:58 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[02-Jun-2025 09:50:58 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error ():  in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php:106
+Stack trace:
+#0 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php(19): Midtrans\ApiRequestor::remoteCall()
+#1 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Transaction.php(18): Midtrans\ApiRequestor::get()
+#2 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php(25): Midtrans\Transaction::status()
+#3 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/examples/notification-handler.php(8): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[03-Jun-2025 19:06:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php on line 25
+[03-Jun-2025 19:06:09 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 97
+[03-Jun-2025 19:06:09 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 98
+[03-Jun-2025 19:06:09 UTC] PHP Warning:  Attempt to read property "status_message" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 99
+[03-Jun-2025 19:06:09 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[03-Jun-2025 19:06:09 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error ():  in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php:106
+Stack trace:
+#0 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php(19): Midtrans\ApiRequestor::remoteCall()
+#1 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Transaction.php(18): Midtrans\ApiRequestor::get()
+#2 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php(25): Midtrans\Transaction::status()
+#3 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/examples/notification-handler.php(8): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[05-Jun-2025 04:04:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php on line 25
+[05-Jun-2025 04:04:03 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 97
+[05-Jun-2025 04:04:03 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 98
+[05-Jun-2025 04:04:03 UTC] PHP Warning:  Attempt to read property "status_message" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 99
+[05-Jun-2025 04:04:03 UTC] PHP Warning:  Attempt to read property "status_code" on null in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106
+[05-Jun-2025 04:04:03 UTC] PHP Fatal error:  Uncaught Exception: Midtrans Error ():  in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php:106
+Stack trace:
+#0 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php(19): Midtrans\ApiRequestor::remoteCall()
+#1 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Transaction.php(18): Midtrans\ApiRequestor::get()
+#2 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/Notification.php(25): Midtrans\Transaction::status()
+#3 /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/examples/notification-handler.php(8): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 106

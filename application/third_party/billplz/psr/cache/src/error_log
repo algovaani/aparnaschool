@@ -1,0 +1,16 @@
+[21-May-2025 07:08:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Cache\CacheException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php on line 11
+[10-Jun-2025 04:11:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Cache\CacheException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php on line 11
+[11-Jun-2025 13:13:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Cache\CacheException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php on line 11
+[12-Jun-2025 14:36:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Cache\CacheException" not found in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aparnapu/mastermindz.in/application/third_party/billplz/psr/cache/src/InvalidArgumentException.php on line 11
