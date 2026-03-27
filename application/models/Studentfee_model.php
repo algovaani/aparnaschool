@@ -218,18 +218,18 @@ class Studentfee_model extends MY_Model {
 
         public function getDueStudentFeesByDateClassSection( $class_id = NULL, $section_id = NULL , $date=NULL) {
       
-        $where_condition=array();
-        if ($class_id !=NULL){
-           $where_condition[]= " AND student_session.class_id=".$class_id;
+        $where_condition = array();
+        if (!empty($class_id)) {
+            $where_condition[] = " AND student_session.class_id=" . $this->db->escape($class_id);
         }
-        if ($section_id !=NULL){
-           $where_condition[]= "student_session.section_id=".$section_id;
+        if (!empty($section_id)) {
+            $where_condition[] = " AND student_session.section_id=" . $this->db->escape($section_id);
         }
-        if ($date !=NULL){
-           $where_condition[]= "fee_groups_feetype.due_date < " . $this->db->escape($date);
+        if (!empty($date)) {
+            $where_condition[] = " AND fee_groups_feetype.due_date < " . $this->db->escape($date);
         }
 
-        $where_condition_string= implode(" AND ", $where_condition);
+        $where_condition_string = implode(" ", $where_condition);
 
         $query = "SELECT student_fees_master.amount as `previous_balance_amount`,IFNULL(student_fees_deposite.id, 0) as student_fees_deposite_id, IFNULL(student_fees_deposite.fee_groups_feetype_id, 0) as fee_groups_feetype_id, IFNULL(student_fees_deposite.amount_detail, 0) as amount_detail, student_fees_master.id as `fee_master_id`,fee_groups_feetype.feetype_id ,fee_groups_feetype.amount,fee_groups_feetype.due_date, `classes`.`id` AS `class_id`, `student_session`.`id` as `student_session_id`, `students`.`id`, `classes`.`class`, `sections`.`id` AS `section_id`, `sections`.`section`, `students`.`id`, `students`.`admission_no`, `students`.`roll_no`, `students`.`admission_date`, `students`.`firstname`,`students`.`middlename`, `students`.`lastname`, `students`.`image`, `students`.`mobileno`, `students`.`email`, `students`.`state`, `students`.`city`, `students`.`pincode`, `students`.`religion`, `students`.`dob`, `students`.`current_address`, `students`.`permanent_address`, IFNULL(students.category_id, 0) as `category_id`, IFNULL(categories.category, '') as `category`, `students`.`adhar_no`, `students`.`samagra_id`, `students`.`bank_account_no`, `students`.`bank_name`, `students`.`ifsc_code`, `students`.`guardian_name`, `students`.`guardian_relation`, `students`.`guardian_phone`, `students`.`guardian_address`, `students`.`is_active`, `students`.`created_at`, `students`.`updated_at`, `students`.`father_name`, `students`.`rte`, `students`.`gender`,fee_groups.name as `fee_group` ,feetype.type as `fee_type`,feetype.code as `fee_code` , fee_groups.is_system FROM `student_fees_master` INNER JOIN fee_session_groups on fee_session_groups.id= student_fees_master.fee_session_group_id INNER JOIN fee_groups on fee_groups.id=fee_session_groups.fee_groups_id INNER JOIN fee_groups_feetype on fee_groups_feetype.fee_session_group_id=student_fees_master.fee_session_group_id  INNER JOIN feetype on feetype.id=fee_groups_feetype.feetype_id LEFT JOIN student_fees_deposite on student_fees_deposite.student_fees_master_id=student_fees_master.id and student_fees_deposite.fee_groups_feetype_id=fee_groups_feetype.id INNER JOIN student_session on student_session.id=student_fees_master.student_session_id INNER JOIN students on students.id=student_session.student_id JOIN `classes` ON `student_session`.`class_id` = `classes`.`id` JOIN `sections` ON `sections`.`id` = `student_session`.`section_id` LEFT JOIN `categories` ON `students`.`category_id` = `categories`.`id` WHERE `students`.`is_active` = 'yes' and student_session.session_id = ".$this->current_session."  ".$where_condition_string." ORDER BY student_fees_master.id asc";
            
@@ -252,14 +252,14 @@ class Studentfee_model extends MY_Model {
         $this->db->where('student_session.session_id',$this->current_session);
         $this->db->order_by('student_fees_deposite.id','desc');
 
-        if($class_id!=null){
+        if(!empty($class_id)){
             $this->db->where('student_session.class_id',$class_id);
         }
 
-        if($section_id!=null){
+        if(!empty($section_id)){
             $this->db->where('student_session.section_id',$section_id);
         }
-        if($date!=null){
+        if(!empty($date)){
             $this->db->where('transport_feemaster.due_date <', ($date));
         }
         $query1        = $this->db->get();

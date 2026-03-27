@@ -94,7 +94,12 @@ class Stuattendence_model extends MY_Model
                         $this->mailsmsconf->mailsms('student_present_attendence', $present_student_list, $data['date']);
     
                     } else {
-                        $status = 2; //for range not exist to save
+                        // If schedule is not configured, still mark Present (day-wise biometric behaviour).
+                        // This matches typical biometric flow: present students are marked automatically.
+                        $data['attendence_type_id'] = 1;
+                        $data['in_time']            = $time;
+                        $this->db->insert('student_attendences', $data);
+                        $status = 1;
     
                     }
               

@@ -84,6 +84,13 @@ class Generatecertificate extends Admin_Controller
         $resultlist                = $this->student_model->searchByClassStudent($class, $student);
         $data['resultlist']        = $resultlist;
 
+        $student_session_id = null;
+        if (!empty($resultlist)) {
+            $first = is_array($resultlist[0]) ? $resultlist[0] : (array) $resultlist[0];
+            $student_session_id = isset($first['student_session_id']) ? $first['student_session_id'] : null;
+        }
+        $this->Certificate_model->recordIssue($student, $student_session_id, $certificate);
+
         $this->load->view('admin/certificate/transfercertificate', $data);
     }
 
@@ -162,7 +169,9 @@ class Generatecertificate extends Admin_Controller
             $data['students'][$key]->totalDepositAmount = $total_deposite_amount; 
         }
         $data['studentDueFee'] = $studentDueFee;
-        // echo '<pre>';print_r($data['students']); echo '</pre>';exit();
+        foreach ($data['students'] as $value) {
+            $this->Certificate_model->recordIssue($value->id, isset($value->student_session_id) ? $value->student_session_id : null, $certificate_id);
+        }
         $data['sch_setting'] = $this->sch_setting_detail;
         $certificates        = $this->load->view('admin/certificate/printcertificate', $data, true);
         echo $certificates;

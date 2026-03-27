@@ -2332,11 +2332,69 @@ class Student_model extends MY_Model
 
     public function biometric_attendance($admission_no = null)
     {
-        $sql    = "SELECT staff.id,staff.employee_id,staff.name,staff.surname,staff.contact_no,staff.email,'staff' as `table_type` FROM `staff` WHERE employee_id=" . $this->db->escape($admission_no) . " UNION SELECT student_session.id as `student_session_id`,students.id, students.admission_no,students.firstname,students.middlename,students.lastname,'student' as `table_type` FROM `students` JOIN `student_session` ON `student_session`.`student_id` = `students`.`id` JOIN `classes` ON `student_session`.`class_id` = `classes`.`id` JOIN `sections` ON `sections`.`id` = `student_session`.`section_id` LEFT JOIN `hostel_rooms` ON `hostel_rooms`.`id` = `students`.`hostel_room_id` LEFT JOIN `hostel` ON `hostel`.`id` = `hostel_rooms`.`hostel_id` LEFT JOIN `room_types` ON `room_types`.`id` = `hostel_rooms`.`room_type_id` LEFT JOIN `vehicle_routes` ON `vehicle_routes`.`id` = `student_session`.`vehroute_id` LEFT JOIN `route_pickup_point` ON `route_pickup_point`.`id` = `student_session`.`route_pickup_point_id` LEFT JOIN `pickup_point` ON `route_pickup_point`.`pickup_point_id` = `pickup_point`.`id` LEFT JOIN `transport_route` ON `vehicle_routes`.`route_id` = `transport_route`.`id` LEFT JOIN `vehicles` ON `vehicles`.`id` = `vehicle_routes`.`vehicle_id` LEFT JOIN `school_houses` ON `school_houses`.`id` = `students`.`school_house_id` LEFT JOIN `users` ON `users`.`user_id` = `students`.`id` WHERE `student_session`.`session_id` = '" . $this->current_session . "' AND `users`.`role` = 'student' AND `students`.`is_active` = 'yes' AND `students`.`admission_no` = " . $this->db->escape($admission_no);
-        $query  = $this->db->query($sql);
-        $result = $query->row();
-        return $result;
+        if (empty($admission_no)) {
+            return null;
+        }
+        $is_numeric_id = ctype_digit((string) $admission_no);
+        $numeric_id    = $is_numeric_id ? (int) $admission_no : null;
 
+        // 1) Staff: device user_id = staff employee_id
+        $this->db
+            ->select('staff.id AS id, staff_roles.role_id AS staff_role, "staff" AS table_type', false)
+            ->from('staff')
+            ->join('staff_roles', 'staff_roles.staff_id = staff.id', 'left')
+            ->group_start()
+                ->where('staff.employee_id', $admission_no);
+        if ($is_numeric_id) {
+            $this->db->or_where('staff.id', $numeric_id);
+        }
+        $staff = $this->db
+            ->group_end()
+            ->limit(1)
+            ->get()
+            ->row();
+
+        if (!empty($staff)) {
+            $staff->class_section_id = null;
+            return $staff;
+        }
+
+        // 2) Student: device user_id = students.admission_no
+        // Return id = student_session.id (used by biometric controller as student_session_id)
+        // and class_section_id for schedule based attendance type selection.
+        $this->db
+            ->select('student_session.id AS id, class_sections.id AS class_section_id, "student" AS table_type', false)
+            ->from('students')
+            ->join('student_session', 'student_session.student_id = students.id', 'inner')
+            ->join('class_sections', 'class_sections.class_id = student_session.class_id AND class_sections.section_id = student_session.section_id', 'inner', false)
+            ->join('users', 'users.user_id = students.id', 'left')
+            ->where('student_session.session_id', $this->current_session)
+            ->where('students.is_active', 'yes')
+            ->group_start()
+                ->where('students.admission_no', $admission_no);
+        if ($is_numeric_id) {
+            // Allow tests where device sends numeric student_id or student_session_id
+            $this->db->or_where('students.id', $numeric_id);
+            $this->db->or_where('student_session.id', $numeric_id);
+        }
+        $this->db->group_end()
+            ->group_start()
+                ->where('users.role', 'student')
+                ->or_where('users.role IS NULL', null, false)
+                ->or_where('users.role', '')
+            ->group_end();
+
+        $student = $this->db
+            ->limit(1)
+            ->get()
+            ->row();
+
+        if (!empty($student)) {
+            $student->staff_role = null;
+            return $student;
+        }
+
+        return null;
     }
     //===========
 

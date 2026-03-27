@@ -1286,6 +1286,110 @@ class Financereports extends Admin_Controller
         $this->load->view('layout/footer', $data);
     }
 	
+    /**
+     * Fees due report: students who have not paid fees for 60+ days (same as Report::fees_due_60_days_report)
+     */
+    public function fees_due_60_days_report()
+    {
+        if (!$this->rbac->hasPrivilege('balance_fees_statement', 'can_view')) {
+            access_denied();
+        }
+        $this->session->set_userdata('top_menu', 'Financereports');
+        $this->session->set_userdata('sub_menu', 'Financereports/finance');
+        $this->session->set_userdata('subsub_menu', 'Reports/finance/fees_due_60_days_report');
+
+        $data['resultlist'] = array();
+        $data['class_id'] = '';
+        $data['section_id'] = '';
+
+        $class = $this->class_model->get();
+        $data['classlist'] = (is_array($class) || is_object($class)) ? $class : array();
+
+        $is_post = ($this->input->server('REQUEST_METHOD') === 'POST');
+        if ($is_post && method_exists($this->studentfee_model, 'getStudentsWithDueFeesOver60Days')) {
+            try {
+                $class_id = $this->input->post('class_id');
+                $section_id = $this->input->post('section_id');
+                $data['class_id'] = $class_id;
+                $data['section_id'] = $section_id;
+                $class_id = (isset($class_id) && $class_id !== '' && $class_id !== 'all') ? $class_id : null;
+                $section_id = (isset($section_id) && $section_id !== '' && $section_id !== 'all') ? $section_id : null;
+                $list = $this->studentfee_model->getStudentsWithDueFeesOver60Days($class_id, $section_id);
+                $data['resultlist'] = is_array($list) ? $list : array();
+            } catch (Exception $e) {
+                log_message('error', 'fees_due_60_days_report: ' . $e->getMessage());
+            }
+        }
+
+        $data['sch_setting'] = isset($this->sch_setting_detail) ? $this->sch_setting_detail : new stdClass();
+        $data['currency_format'] = $this->customlib->getSchoolCurrencyFormat();
+        $data['form_action'] = site_url('financereports/fees_due_60_days_report');
+        $this->load->view('layout/header', $data);
+        $this->load->view('financereports/fees_due_60_days_report', $data);
+        $this->load->view('layout/footer', $data);
+    }
+
+    /**
+     * Issued Certificate Report - Certificate wise, Class wise filter, All students
+     */
+    public function issued_certificate_report()
+    {
+        if (!$this->rbac->hasPrivilege('generate_certificate', 'can_view') && !$this->rbac->hasPrivilege('student_certificate', 'can_view')) {
+            access_denied();
+        }
+        $this->session->set_userdata('top_menu', 'Financereports');
+        $this->session->set_userdata('sub_menu', 'Financereports/finance');
+        $this->session->set_userdata('subsub_menu', 'Reports/finance/issued_certificate_report');
+
+        $certificateList = $this->Certificate_model->getstudentcertificate();
+        $data['certificateList'] = $certificateList;
+        $class = $this->class_model->get();
+        $data['classlist'] = (is_array($class) || is_object($class)) ? $class : array();
+        $data['resultlist'] = array();
+        $data['certificateResult'] = array();
+        $data['certificate_name'] = '';
+        $data['class_id'] = '';
+        $data['section_id'] = '';
+        $data['certificate_id'] = '';
+        $data['title'] = $this->lang->line('issued_certificate_report') ?: 'Issued Certificate Report';
+        $data['filter_title'] = '';
+        $data['form_action'] = site_url('financereports/issued_certificate_report');
+
+        if ($this->input->server('REQUEST_METHOD') == 'POST') {
+            $this->form_validation->set_rules('certificate_id', $this->lang->line('certificate'), 'trim|required|xss_clean');
+            if ($this->form_validation->run() == true) {
+                $certificate_id = $this->input->post('certificate_id');
+                $class_id = $this->input->post('class_id');
+                $section_id = $this->input->post('section_id');
+
+                $data['certificate_id'] = $certificate_id;
+                $data['class_id'] = $class_id;
+                $data['section_id'] = $section_id;
+
+                $certificateResult = $this->Certificate_model->get($certificate_id);
+                if (!empty($certificateResult)) {
+                    $data['certificateResult'] = $certificateResult;
+                    $data['certificate_name'] = $certificateResult[0]->certificate_name;
+                }
+
+                $resultlist = $this->Certificate_model->getIssuedListByCertificate($certificate_id, !empty($class_id) ? $class_id : null, !empty($section_id) ? $section_id : null);
+                $data['resultlist'] = is_array($resultlist) ? $resultlist : array();
+
+                if (!empty($class_id) && !empty($section_id)) {
+                    $title = $this->classsection_model->getDetailbyClassSection($class_id, $section_id);
+                    $data['filter_title'] = (isset($title['class']) && isset($title['section'])) ? $title['class'] . ' (' . $title['section'] . ')' : '';
+                } else {
+                    $data['filter_title'] = $this->lang->line('all_students') ?: 'All Students';
+                }
+            }
+        }
+
+        $data['sch_setting'] = isset($this->sch_setting_detail) ? $this->sch_setting_detail : new stdClass();
+        $this->load->view('layout/header', $data);
+        $this->load->view('financereports/issued_certificate_report', $data);
+        $this->load->view('layout/footer', $data);
+    }
+
 	public function incomeexpensebalancereport()
     {	
 		$this->session->set_userdata('top_menu', 'Reports');

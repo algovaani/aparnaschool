@@ -30,6 +30,22 @@
                 'color' => $solid_colors[$i++ % count($solid_colors)],
             ];
         }
+        if ($this->rbac->hasPrivilege('balance_fees_statement', 'can_view')) {
+            $tabs[] = [
+                'url' => site_url('financereports/fees_due_60_days_report'),
+                'label' => $this->lang->line('fees_due_60_days_report') ?: 'Fees Due 60 Days Report',
+                'class' => set_SubSubmenu('Reports/finance/fees_due_60_days_report'),
+                'color' => $solid_colors[$i++ % count($solid_colors)],
+            ];
+        }
+        if ($this->rbac->hasPrivilege('generate_certificate', 'can_view') || $this->rbac->hasPrivilege('student_certificate', 'can_view')) {
+            $tabs[] = [
+                'url' => site_url('financereports/issued_certificate_report'),
+                'label' => $this->lang->line('issued_certificate_report') ?: 'Issued Certificate Report',
+                'class' => set_SubSubmenu('Reports/finance/issued_certificate_report'),
+                'color' => $solid_colors[$i++ % count($solid_colors)],
+            ];
+        }
         if ($this->rbac->hasPrivilege('daily_collection_report', 'can_view')) {
             $tabs[] = [
                 'url' => site_url('financereports/reportdailycollection'),

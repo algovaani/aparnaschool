@@ -1,9 +1,13 @@
 <?php
 $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
+$sch_setting = isset($sch_setting) ? $sch_setting : new stdClass();
+if (!isset($sch_setting->middlename)) $sch_setting->middlename = '';
+if (!isset($sch_setting->lastname)) $sch_setting->lastname = '';
+$resultlist = isset($resultlist) && is_array($resultlist) ? $resultlist : array();
 ?>
 <div class="content-wrapper">
     <section class="content-header">
-        <h1><i class="fa fa-money"></i> <?php echo isset($title) ? $title : $this->lang->line('fees_due_60_days_report'); ?></h1>
+        <h1><i class="fa fa-money"></i> <?php echo isset($title) && $title ? $title : ($this->lang->line('fees_due_60_days_report') ?: 'Fees Due 60 Days Report'); ?></h1>
     </section>
     <section class="content">
         <div class="row">
@@ -13,7 +17,7 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                         <h3 class="box-title"><i class="fa fa-filter"></i> <?php echo $this->lang->line('select_criteria'); ?></h3>
                     </div>
                     <div class="box-body">
-                        <form role="form" action="<?php echo isset($form_action) ? $form_action : site_url('admin/report/fees_due_60_days_report'); ?>" method="post">
+                        <form role="form" action="<?php echo isset($form_action) ? $form_action : site_url('financereports/fees_due_60_days_report'); ?>" method="post">
                             <?php echo $this->customlib->getCSRF(); ?>
                             <div class="row">
                                 <div class="col-sm-4">
@@ -50,9 +54,9 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                         </form>
                     </div>
                     <div class="box-header with-border">
-                        <h3 class="box-title"><i class="fa fa-list"></i> <?php echo $this->lang->line('fees_due_60_days_report'); ?> <small>(<?php echo $this->lang->line('students_with_fees_not_paid_for_60_days'); ?>)</small></h3>
+                        <h3 class="box-title"><i class="fa fa-list"></i> <?php echo $this->lang->line('fees_due_60_days_report') ?: 'Fees Due 60 Days Report'; ?> <small>(<?php echo $this->lang->line('students_with_fees_not_paid_for_60_days') ?: 'Students who have not paid fees for 60+ days'; ?>)</small></h3>
                         <div class="box-tools pull-right">
-                            <span class="badge bg-red"><?php echo count($resultlist); ?> <?php echo $this->lang->line('students'); ?></span>
+                            <span class="badge bg-red"><?php echo count($resultlist); ?> <?php echo $this->lang->line('students') ?: 'Students'; ?></span>
                         </div>
                     </div>
                     <div class="box-body table-responsive">
@@ -60,15 +64,15 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th><?php echo $this->lang->line('admission_no'); ?></th>
-                                    <th><?php echo $this->lang->line('student_name'); ?></th>
-                                    <th><?php echo $this->lang->line('class'); ?></th>
-                                    <th><?php echo $this->lang->line('father_name'); ?></th>
-                                    <th><?php echo $this->lang->line('guardian_name'); ?></th>
-                                    <th><?php echo $this->lang->line('mobile_number'); ?></th>
-                                    <th><?php echo $this->lang->line('months_unpaid'); ?></th>
-                                    <th><?php echo $this->lang->line('days_overdue'); ?></th>
-                                    <th><?php echo $this->lang->line('total_due'); ?></th>
+                                    <th><?php echo $this->lang->line('admission_no') ?: 'Admission No'; ?></th>
+                                    <th><?php echo $this->lang->line('student_name') ?: 'Student Name'; ?></th>
+                                    <th><?php echo $this->lang->line('class') ?: 'Class'; ?></th>
+                                    <th><?php echo $this->lang->line('father_name') ?: 'Father Name'; ?></th>
+                                    <th><?php echo $this->lang->line('guardian_name') ?: 'Guardian Name'; ?></th>
+                                    <th><?php echo $this->lang->line('mobile_number') ?: 'Mobile Number'; ?></th>
+                                    <th><?php echo $this->lang->line('months_unpaid') ?: 'Months Unpaid'; ?></th>
+                                    <th><?php echo $this->lang->line('days_overdue') ?: 'Days Overdue'; ?></th>
+                                    <th><?php echo $this->lang->line('total_due') ?: 'Total Due'; ?></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -84,12 +88,12 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                             <td><?php echo $count++; ?></td>
                                             <td><?php echo htmlspecialchars($row['admission_no']); ?></td>
                                             <td><a href="<?php echo base_url('student/view/' . $row['id']); ?>"><?php echo $name; ?></a></td>
-                                            <td><?php echo $row['class'] . ' (' . $row['section'] . ')'; ?></td>
+                                            <td><?php echo $row['class'] . (isset($row['section']) && $row['section'] !== '' ? ' (' . $row['section'] . ')' : ''); ?></td>
                                             <td><?php echo htmlspecialchars($row['father_name']); ?></td>
                                             <td><?php echo htmlspecialchars($row['guardian_name']); ?></td>
                                             <td><?php echo htmlspecialchars($row['mobileno']); ?></td>
-                                            <td><strong><?php echo (int)$row['months_unpaid']; ?></strong> <?php echo $this->lang->line('months'); ?></td>
-                                            <td><strong><?php echo (int)$row['days_overdue']; ?></strong> <?php echo $this->lang->line('days'); ?></td>
+                                            <td><strong><?php echo (int)$row['months_unpaid']; ?></strong> <?php echo $this->lang->line('months') ?: 'months'; ?></td>
+                                            <td><strong><?php echo (int)$row['days_overdue']; ?></strong> <?php echo $this->lang->line('days') ?: 'days'; ?></td>
                                             <td><strong><?php echo $currency_symbol . number_format($row['total_due'], 2); ?></strong></td>
                                         </tr>
                                         <?php

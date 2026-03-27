@@ -34,12 +34,13 @@ if (!empty($side_list)) {
             }
         }
         if ($module_access) {
-            if ($this->module_lib->hasModule($side_list_value->short_code) && $this->module_lib->hasActive($side_list_value->short_code)) {
+            $show_menu = empty($side_list_value->short_code) || ($this->module_lib->hasModule($side_list_value->short_code) && $this->module_lib->hasActive($side_list_value->short_code));
+            if ($show_menu) {
                 ?>
                 <li class="treeview <?php echo activate_main_menu($side_list_value->activate_menu); ?>" style="margin-bottom: 1px;">
                     <a href="javascript:void(0);" class="treeview-toggle" style="display: flex; align-items: center; padding: 6px 10px; border-radius: 6px; background: rgba(255,255,255,0.07); color: #fff; transition: background 0.2s;">
                         <i class="<?php echo $side_list_value->icon; ?>" style="margin-right: 6px; font-size: 1em;"></i>
-                        <span style="flex:1; font-size: 0.9em;"><?php echo $this->lang->line($side_list_value->lang_key); ?></span>
+                        <span style="flex:1; font-size: 0.9em;"><?php echo $this->lang->line($side_list_value->lang_key) ?: ucfirst(str_replace('_', ' ', $side_list_value->lang_key)); ?></span>
                         <?php if (!empty($side_list_value->submenus)) { ?>
                         <i class="fa fa-angle-left pull-right tree-arrow" style="margin-left: auto; transition: transform 0.2s;"></i>
                         <?php } ?>
@@ -83,7 +84,7 @@ if (!empty($side_list)) {
                                         explode(',', $submenu_value->activate_methods)); ?>">
                                         <a href="<?php echo site_url($submenu_value->url); ?>" style="display: flex; align-items: center; padding: 6px 14px; color: #fff; border-radius: 4px; transition: background 0.2s;">
                                             <i class="fa fa-angle-double-right" style="margin-right: 5px; color: #38f9d7;"></i>
-                                            <span style="font-size: 0.85em;"><?php echo $this->lang->line($submenu_value->lang_key); ?></span>
+                                            <span style="font-size: 0.85em;"><?php echo $this->lang->line($submenu_value->lang_key) ?: ucfirst(str_replace('_', ' ', $submenu_value->lang_key)); ?></span>
                                         </a>
                                     </li>
                                 <?php

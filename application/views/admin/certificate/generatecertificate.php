@@ -108,6 +108,7 @@ if (isset($resultlist)) {
                                                     <th><?php echo $this->lang->line('gender'); ?></th>
                                                     <th><?php echo $this->lang->line('category'); ?></th>
                                                     <th class=""><?php echo $this->lang->line('mobile_number'); ?></th>
+                                                    <th><?php echo $this->lang->line('action'); ?></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -136,7 +137,9 @@ if (empty($resultlist)) {
                                                             <td><?php echo $this->lang->line(strtolower($student['gender'])); ?></td>
                                                             <td><?php echo $student['category']; ?></td>
                                                             <td><?php echo $student['mobileno']; ?></td>
-
+                                                            <td>
+                                                                <a href="<?php echo site_url('admin/transfercertificate/download/' . $student['id'] . '/' . $student['class_id'] . '/' . $certificateResult[0]->id); ?>" class="btn btn-default btn-xs" title="<?php echo $this->lang->line('download'); ?>" target="_blank"><i class="fa fa-download"></i></a>
+                                                            </td>
                                                         </tr>
                                                         <?php
 $count++;

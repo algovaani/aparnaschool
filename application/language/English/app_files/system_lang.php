@@ -1991,6 +1991,7 @@ $lang['student_categories'] = "Student Categories";
 $lang['student_certificate'] = "Student Certificate";	
 $lang['student_certificate_list'] = "Student Certificate List";
 $lang['issued_certificate_report'] = "Issued Certificate Report";
+$lang['issued_certificate_date'] = "Issued Certificate Date";
 $lang['student_copy'] = "Student Copy";	
 $lang['student_count'] = "Student Count"; 	
 $lang['student_date'] = "Student / Date";	

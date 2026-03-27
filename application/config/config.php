@@ -30,8 +30,10 @@ $is_local = isset($_SERVER['HTTP_HOST']) && (
     || strpos($_SERVER['HTTP_HOST'], 'aparna-school') !== false
     || strpos($_SERVER['HTTP_HOST'], '127.0.0.1') !== false
 );
+$is_https = (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] === 'on' || $_SERVER['HTTPS'] === '1'))
+    || (isset($_SERVER['SERVER_PORT']) && (string) $_SERVER['SERVER_PORT'] === '443');
 if ($is_local) {
-    $protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+    $protocol = $is_https ? 'https' : 'http';
     $host = $_SERVER['HTTP_HOST'];
     $path = (strpos($_SERVER['SCRIPT_NAME'], 'aparnaschool') !== false) ? '/aparnaschool/' : '/';
     $config['base_url'] = $protocol . '://' . $host . $path;
@@ -386,7 +388,9 @@ $config['encryption_key'] = '';
 
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_samesite'] = 'None';
+// Browsers reject SameSite=None cookies unless Secure=true (HTTPS).
+// Local is usually HTTP, so keep session cookies usable by switching to Lax on non-HTTPS.
+$config['sess_samesite'] = $is_https ? 'None' : 'Lax';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = sys_get_temp_dir();
 $config['sess_match_ip'] = FALSE;
@@ -411,7 +415,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 $config['cookie_prefix']	= '';
 $config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
-$config['cookie_secure']	= FALSE;
+$config['cookie_secure']	= $is_https ? TRUE : FALSE;
 $config['cookie_httponly'] 	= FALSE;
 $config['cookie_samesite'] 	= 'Lax';	
 /*

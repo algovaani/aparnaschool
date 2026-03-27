@@ -2641,8 +2641,8 @@ class Report extends Admin_Controller
                     $data['certificate_name']  = $certificateResult[0]->certificate_name;
                 }
 
-                $resultlist = $this->student_model->searchByClassSection($class_id ?: null, $section_id ?: null);
-                $data['resultlist'] = $resultlist;
+                $resultlist = $this->Certificate_model->getIssuedListByCertificate($certificate_id, !empty($class_id) ? $class_id : null, !empty($section_id) ? $section_id : null);
+                $data['resultlist'] = is_array($resultlist) ? $resultlist : array();
 
                 if (!empty($class_id) && !empty($section_id)) {
                     $title = $this->classsection_model->getDetailbyClassSection($class_id, $section_id);

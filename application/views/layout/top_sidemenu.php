@@ -37,12 +37,12 @@ if (!empty($side_list)) {
         }
 
         if ($module_access) {
-
-            if ($this->module_lib->hasModule($side_list_value->short_code) && $this->module_lib->hasActive($side_list_value->short_code)) {
+            $show_menu = empty($side_list_value->short_code) || ($this->module_lib->hasModule($side_list_value->short_code) && $this->module_lib->hasActive($side_list_value->short_code));
+            if ($show_menu) {
 
                 ?>
                          <div class="card-sidebar">
-                            <h4><i class="<?php echo $side_list_value->icon; ?>"></i> <?php echo $this->lang->line($side_list_value->lang_key); ?></h4>
+                            <h4><i class="<?php echo $side_list_value->icon; ?>"></i> <?php echo $this->lang->line($side_list_value->lang_key) ?: ucfirst(str_replace('_', ' ', $side_list_value->lang_key)); ?></h4>
 
                                                     <?php
 
@@ -83,7 +83,7 @@ foreach ($side_list_value->submenus as $submenu_key => $submenu_value) {
 
                             ?>
                         <li>
-                          <a href="<?php echo site_url($submenu_value->url); ?>"><i class="fa fa-angle-double-right"></i><?php echo $this->lang->line($submenu_value->lang_key); ?></a>
+                          <a href="<?php echo site_url($submenu_value->url); ?>"><i class="fa fa-angle-double-right"></i><?php echo $this->lang->line($submenu_value->lang_key) ?: ucfirst(str_replace('_', ' ', $submenu_value->lang_key)); ?></a>
                         </li>
 
                           <?php
